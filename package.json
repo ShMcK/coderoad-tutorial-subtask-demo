@@ -7,7 +7,9 @@
     "test": "npm run test --prefix .coderoad",
     "lint": "eslint src"
   },
-  "keywords": ["coderoad"],
+  "keywords": [
+    "coderoad"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
