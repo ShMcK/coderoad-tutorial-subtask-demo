@@ -34,7 +34,8 @@
             "id": "L1:S1",
             "setup": {
               "files": ["src/add.js"],
-              "commits": ["1211e5e"]
+              "commits": ["1211e5e"],
+              "commands": ["npm install"]
             },
             "solution": {
               "files": ["src/add.js"],
