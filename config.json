@@ -6,7 +6,8 @@
     },
     "config": {
       "testRunner": {
-        "command": "npm run programmatic-test",
+        "command": "npm run test:programmatic",
+        "filter": "npm run test:filter",
         "path": "coderoad",
         "actions": {
           "commits": ["410bd4f"],
@@ -35,7 +36,8 @@
             "setup": {
               "files": ["src/add.js"],
               "commits": ["1211e5e"],
-              "commands": ["npm install"]
+              "commands": ["npm install"],
+              "subtasks": true
             },
             "solution": {
               "files": ["src/add.js"],
