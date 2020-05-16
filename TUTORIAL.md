@@ -1,27 +1,9 @@
-# Title of Tutorial
+## L1 Subtask Example
 
-> A description of the tutorial
+> Subtask Example
 
-```config
-config:
-  testRunner:
-    command: npm run programmatic-test
-    path: .coderoad
-    actions:
-      commits:
-        - '1728434'
-      commands:
-        - npm install
-  repo:
-    uri: https://github.com/coderoad/starter-js-mocha
-    branch: v0.1.0
-  dependencies:
-    - name: node
-      version: >=10
-```
+A subtask example
 
-## Level 1 Title
+### L1S1 step 1
 
-> Introduction to the tutorial
-
-Some write up here to introduce what the tutorial is about.
+Create a function `add` that can take a variety of params.

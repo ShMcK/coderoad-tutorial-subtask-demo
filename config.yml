@@ -1,0 +1,27 @@
+version: "0.1.0"
+summary:
+  title: "Subtask Demo"
+  description: "An example of subtasks in CodeRoad"
+config:
+  testRunner:
+    command: npm run test:programmatic
+    filter: npm run test:filter
+  repo: 
+    uri: https://github.com/shmck/coderoad-tutorial-subtask-demo
+    branch: master
+  dependencies:
+    - name: node
+      version: ">=10"
+levels:
+  - id: L1
+    config: {}
+    steps:
+      - id: L1S1
+        setup:
+          files:
+            - src/add.js
+          commits: []
+        solution:
+          files:
+            - src/add.js
+          commits: []
