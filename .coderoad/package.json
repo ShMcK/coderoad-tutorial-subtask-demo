@@ -1,0 +1,22 @@
+{
+  "name": "coderoad-fcc-learn-npm",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coderoad/fcc-learn-npm"
+  },
+  "scripts": {
+    "test": "mocha",
+    "test:programmatic": "mocha --reporter=mocha-tap-reporter",
+    "test:filter": "mocha --reporter=mocha-tap-reporter --grep",
+    "lint": "eslint test"
+  },
+  "dependencies": {
+    "eslint-plugin-mocha": "^7.0.0",
+    "mocha": "^7.0.1",
+    "mocha-tap-reporter": "^0.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb-base": "^14.1.0"
+  }
+}
