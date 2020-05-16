@@ -37,9 +37,7 @@
               "files": ["src/add.js"],
               "commits": ["1211e5e"],
               "commands": ["npm install"],
-              "subtasks": {
-                  "filter": "^Example"
-              }
+              "subtasks": ["^Example"]
             },
             "solution": {
               "files": ["src/add.js"],
