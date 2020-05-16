@@ -36,8 +36,7 @@
             "setup": {
               "files": ["src/add.js"],
               "commits": ["1211e5e"],
-              "commands": ["npm install"],
-              "subtasks": true
+              "commands": ["npm install"]
             },
             "solution": {
               "files": ["src/add.js"],
