@@ -1,0 +1,19 @@
+{
+  // lint on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll": true
+  },
+  "eslint.validate": ["javascript"], // options include ["javascriptreact", "typescript", "typescriptreact", "vue", "html"]
+  // format on save
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "eslint.format.enable": true,
+  "editor.formatOnSave": true, // use eslint formatter
+  // display eslint "problems"
+  "eslint.alwaysShowStatus": true,
+  "eslint.workingDirectories": [
+    { "directory": ".coderoad", "changeProcessCWD": true }
+  ],
+  // exclude files
+  "files.exclude": {}
+}
