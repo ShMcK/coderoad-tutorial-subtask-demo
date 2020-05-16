@@ -8,7 +8,7 @@
       "testRunner": {
         "command": "npm run test:programmatic",
         "filter": "npm run test:filter",
-        "path": "coderoad",
+        "path": ".coderoad",
         "actions": {
           "commits": ["410bd4f"],
           "commands": ["npm install"]
