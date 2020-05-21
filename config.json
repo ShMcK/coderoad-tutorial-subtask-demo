@@ -6,10 +6,13 @@
     },
     "config": {
       "testRunner": {
-        "command": "npm run test:programmatic",
-        "filter": "npm run test:filter",
-        "path": ".coderoad",
-        "actions": {
+        "command": "./node_modules/.bin/mocha",
+        "args": {
+          "filter": "--grep",
+          "tap": "--reporter=mocha-tap-reporter"
+        },
+        "directory": ".coderoad",
+        "setup": {
           "commits": ["410bd4f"],
           "commands": ["npm install"]
         }
@@ -37,7 +40,8 @@
               "files": ["src/add.js"],
               "commits": ["1211e5e"],
               "commands": ["npm install"],
-              "subtasks": ["^Example"]
+              "filter": "^Example",
+              "subtasks": true
             },
             "solution": {
               "files": ["src/add.js"],

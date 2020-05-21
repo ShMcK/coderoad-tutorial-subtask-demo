@@ -4,11 +4,17 @@ summary:
   description: "An example of subtasks in CodeRoad"
 config:
   testRunner:
-    command: npm run test:programmatic
-    filter: npm run test:filter
+    command: ./node_modules/.bin/mocha
+    args: 
+      filter: --grep
+      tap: --reporter=mocha-tap-reporter
+    director: .coderoad
+    setup:
+      commits: 410bd4f
+      commands: npm install
   repo: 
     uri: https://github.com/shmck/coderoad-tutorial-subtask-demo
-    branch: master
+    branch: v0.1.0
   dependencies:
     - name: node
       version: ">=10"
