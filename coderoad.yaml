@@ -1,17 +1,14 @@
 version: "0.1.0"
-summary:
-  title: "Subtask Demo"
-  description: "An example of subtasks in CodeRoad"
 config:
   testRunner:
     command: ./node_modules/.bin/mocha
     args: 
       filter: --grep
       tap: --reporter=mocha-tap-reporter
-    director: .coderoad
+    directory: .coderoad
     setup:
-      commits: 410bd4f
-      commands: npm install
+      commands:
+        - npm install
   repo: 
     uri: https://github.com/shmck/coderoad-tutorial-subtask-demo
     branch: v0.1.0
@@ -19,15 +16,10 @@ config:
     - name: node
       version: ">=10"
 levels:
-  - id: L1
-    config: {}
+  - id: '1'
     steps:
-      - id: L1S1
+      - id: '1.1'
         setup:
           files:
             - src/add.js
-          commits: []
-        solution:
-          files:
-            - src/add.js
-          commits: []
+          subtasks: true

@@ -1,9 +1,11 @@
-## L1 Subtask Example
+# Subtask Demo
 
-> Subtask Example
+A demo demonstrating how to use subtasks
+
+## 1. Subtask Example
 
 A subtask example
 
-### L1S1 step 1
+### 1.1
 
 Create a function `add` that can take a variety of params.

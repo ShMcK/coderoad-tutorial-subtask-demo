@@ -1,0 +1,63 @@
+{
+  "version": "0.1.0",
+  "summary": {
+    "title": "Subtask Demo",
+    "description": "A demo demonstrating how to use subtasks"
+  },
+  "config": {
+    "testRunner": {
+      "command": "./node_modules/.bin/mocha",
+      "args": {
+        "filter": "--grep",
+        "tap": "--reporter=mocha-tap-reporter"
+      },
+      "directory": ".coderoad",
+      "setup": {
+        "commands": [
+          "npm install"
+        ],
+        "commits": [
+          "6823241497effb41f5924bc28313b968fead8cae"
+        ]
+      }
+    },
+    "repo": {
+      "uri": "https://github.com/shmck/coderoad-tutorial-subtask-demo",
+      "branch": "v0.1.0"
+    },
+    "dependencies": [
+      {
+        "name": "node",
+        "version": ">=10"
+      }
+    ]
+  },
+  "levels": [
+    {
+      "id": "1",
+      "title": "Subtask Example",
+      "summary": "A subtask example",
+      "content": "A subtask example",
+      "steps": [
+        {
+          "id": "1.1",
+          "setup": {
+            "files": [
+              "src/add.js"
+            ],
+            "subtasks": true,
+            "commits": [
+              "0bde1bba25110cf6b3aa5dd85f2977270d36390e"
+            ]
+          },
+          "content": "Create a function `add` that can take a variety of params.",
+          "solution": {
+            "commits": [
+              "661b412f71003e44ce2d7f86fb52959a2cf2a536"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
