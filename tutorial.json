@@ -23,7 +23,7 @@
     },
     "repo": {
       "uri": "https://github.com/shmck/coderoad-tutorial-subtask-demo",
-      "branch": "v0.1.0"
+      "branch": "v0.2.0"
     },
     "dependencies": [
       {
@@ -45,15 +45,19 @@
             "files": [
               "src/add.js"
             ],
-            "subtasks": true,
             "commits": [
-              "0bde1bba25110cf6b3aa5dd85f2977270d36390e"
+              "8caced06ea67be8ab7cd805ebdfb767aae6b9724"
             ]
           },
           "content": "Create a function `add` that can take a variety of params.",
+          "subtasks": [
+            "Add one number",
+            "Add two numbers",
+            "Add three numbers"
+          ],
           "solution": {
             "commits": [
-              "661b412f71003e44ce2d7f86fb52959a2cf2a536"
+              "1676d257a5e955ec8064dc5c5f5d6b6bde9e5b4a"
             ]
           }
         }
