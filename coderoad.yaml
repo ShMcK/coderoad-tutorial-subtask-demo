@@ -6,9 +6,9 @@ config:
       filter: --grep
       tap: --reporter=mocha-tap-reporter
     directory: .coderoad
-    setup:
-      commands:
-        - npm install
+  setup:
+    commands:
+      - npm install
   repo: 
     uri: https://github.com/shmck/coderoad-tutorial-subtask-demo
     branch: v0.2.0

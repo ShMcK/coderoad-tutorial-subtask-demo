@@ -11,15 +11,15 @@
         "filter": "--grep",
         "tap": "--reporter=mocha-tap-reporter"
       },
-      "directory": ".coderoad",
-      "setup": {
-        "commands": [
-          "npm install"
-        ],
-        "commits": [
-          "6823241497effb41f5924bc28313b968fead8cae"
-        ]
-      }
+      "directory": ".coderoad"
+    },
+    "setup": {
+      "commands": [
+        "npm install"
+      ],
+      "commits": [
+        "6823241497effb41f5924bc28313b968fead8cae"
+      ]
     },
     "repo": {
       "uri": "https://github.com/shmck/coderoad-tutorial-subtask-demo",
