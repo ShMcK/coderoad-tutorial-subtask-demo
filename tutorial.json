@@ -15,7 +15,7 @@
     },
     "setup": {
       "commands": [
-        "npm install"
+        "cd .coderoad && npm install"
       ],
       "commits": [
         "6823241497effb41f5924bc28313b968fead8cae"
